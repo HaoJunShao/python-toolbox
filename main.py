@@ -80,6 +80,14 @@ elif choice == "5":
     print(f"平均分是：{sum(scores)/len(scores)}")
     print(f"最高分是：{max(scores)}")
     print(f"最低分是：{min(scores)}")
+elif choice == "6":
+    k = int(input("请选择要转换的温度单位：1.摄氏度；2.华氏度"))
+    if k == 1:
+        m = int(input("请输入摄氏度："))
+        print(f"华氏度为：{m + 273}K")
+    elif k == 2:
+        n = int(input("请输入华氏度"))
+        print(f"摄氏度为：{n - 273}K")
 
 
 
